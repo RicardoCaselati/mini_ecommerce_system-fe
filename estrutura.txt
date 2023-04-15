@@ -1,0 +1,28 @@
+.
+├── app.vue
+├── components
+│   ├── Header.vue
+│   └── Loginform.vue
+├── estrutura.txt
+├── images
+│   └── shopping.jpg
+├── layouts
+│   └── new-default.vue
+├── middleware
+│   └── authRoutes.ts
+├── nuxt.config.ts
+├── package.json
+├── package-lock.json
+├── pages
+│   ├── cart.vue
+│   ├── index.vue
+│   ├── login.vue
+│   ├── new-user.vue
+│   └── product
+│       └── [id].vue
+├── public
+│   └── favicon.ico
+├── README.md
+└── tsconfig.json
+
+7 directories, 18 files

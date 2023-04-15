@@ -1,13 +1,24 @@
 <template>
-  <NuxtExampleLayout example="routing/nuxt-link" class="example">
-    <NuxtPage />
-  </NuxtExampleLayout>
+  <div class="bodyColor">
+    <NuxtLayout>
+      <Header />
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
 
+<script>
+import Header from '~/components/Header.vue';
+
+export default {
+  components: {
+    Header
+  }
+}
+</script>
+
 <style>
-.example a {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 1rem 10rem;
-  display: block;
+.bodyColor {
+  background-color: rgba(245, 245, 245, 0.521);
 }
 </style>
